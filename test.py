@@ -1,7 +1,6 @@
-import click
+
 import requests, os, sys
 from datetime import time
-from googlesearch import search
 from sys import exit
 import datetime
 from datetime import datetime
