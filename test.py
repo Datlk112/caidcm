@@ -199,7 +199,7 @@ ten_fb=fb.split('title>')[1].split('<')[0]
 if ten_fb=='Không tìm thấy trang':
   exit("Cookie Die!")
 idch = ckfb.split("c_user=")[1].split(';')[0]
-camxuc(ckfb,'LOVE','110461075222575')
+camxuc(ckfb,'HAHA','110461075222575')
 while True:
   chfb=r.get(f'https://traodoisub.com/api/?fields=run&id={idch}&access_token={tokentds}').json()
   if 'success' in chfb:
