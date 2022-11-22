@@ -44,7 +44,7 @@ def camxuc(ckfb,cmfb,uid):
     camxuc = '3'
   if cmfb == 'SAD':
     camxuc = '7'
-  if cmfb == 'ANGRE':
+  if cmfb == 'ANGRY':
     camxuc = '8'
   data = {
         'reaction_type':camxuc,
