@@ -71,7 +71,7 @@ def share(ckfb,uid):
   data = {
   'fb_dtsg':fb_dtsg,
   'jazoest':jazoest,
-  'comment':'[TOOL TDS][BÙI TUẤN ĐẠT]',
+  'comment':'[Chúc Bạn Cày Xu Vui Vẻ]',
   'privacyx':'300645083384735',
   'm':'self',
   'sid':uid,
