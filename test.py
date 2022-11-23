@@ -23,8 +23,6 @@ def camxuc(ckfb,cmfb,uid):
 			'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
 			'viewport-width': '1366',
 			 }
-  url_profile = r.get('https://www.facebook.com/me', headers=headers).url
-  profile = r.get(url_profile, headers=headers).text
   find_data = r.get("https://m.facebook.com/", headers=headers).text
   jazoest = find_data.split('name="jazoest" value="')[1].split('"')[0]
   fb_dtsg = find_data.split('name="fb_dtsg" value="')[1].split('"')[0]
